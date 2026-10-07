@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  background: #0f380f;
+  color: #8bac0f;
+  font: 14px monospace;
+}
+
+h1 {
+  letter-spacing: 4px;
+  margin: 28px 0 0;
+  color: #9bbc0f;
+  text-shadow: 2px 2px 0 #306230;
+}
+
+.tag { margin: 0; }
+
+#room {
+  box-sizing: content-box;
+  position: relative;
+  width: 360px;
+  height: 264px;
+  background: #8bac0f;
+  border: 6px solid #0f380f;
+  outline: 4px solid #306230;
+}
+
+.tile { position: absolute; width: 24px; height: 24px; }
+.wall { background: #0f380f; }
+.floor { background: #8bac0f; }
+.door { background: #e05858; }
+
+#player {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #fffbe6;
+  border: 3px solid #306230;
+  z-index: 2;
+}
+
+#status {
+  min-height: 1.2em;
+  margin: 0;
+  padding: 6px 12px;
+  border: 3px solid #306230;
+  background: #0f380f;
+  color: #9bbc0f;
+}
