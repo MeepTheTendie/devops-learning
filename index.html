@@ -3,14 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DevOps Quest</title>
+<title>DevOps Quest: The Linked World</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>DEVOPS QUEST</h1>
-<p class="tag">ARROW KEYS MOVE. FIND THE RED DOOR.</p>
-<div id="room"><div id="player"></div></div>
-<p id="status"></p>
-<script src="game.js"></script>
+<main id="screen">
+  <header id="hud"></header>
+  <div id="room"></div>
+  <p id="status"></p>
+
+  <div id="dialogue" hidden>
+    <span id="dname"></span>
+    <p id="dtext"></p>
+    <span id="dpro">▼</span>
+  </div>
+
+  <div id="overlay" hidden></div>
+  <div id="title" hidden>
+    <h1>DEVOPS QUEST</h1>
+    <p class="sub">THE LINKED WORLD</p>
+    <p id="titleMenu"></p>
+  </div>
+</main>
+<script type="module" src="game.js"></script>
 </body>
 </html>
