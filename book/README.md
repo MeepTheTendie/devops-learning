@@ -47,6 +47,13 @@ command (server, `curl`, `git`, later Docker, CI and deploy) and reads the outpu
 | 14. The Fleet | Kubernetes | Run the game in a local cluster | Pods, deployments, services, probes, rollouts |
 | 15. The Current | Full-pipeline capstone | Ship a second tiny app start to finish | Every chapter wired together on one real project |
 
+## Down the Rabbit Hole
+
+The Codex also carries a **depth branch** for when a skill makes you ask "okay, but how does
+that actually *work*?" One extra layer at each touchpoint — the kernel's view of processes,
+namespaces and cgroups beneath Docker, the boot and service layer, the network stack, and
+machine hardening with real evidence. Start at [deep/README.md](deep/README.md).
+
 ## Progress scoreboard
 
 | Status | Chapters |
@@ -62,6 +69,7 @@ command (server, `curl`, `git`, later Docker, CI and deploy) and reads the outpu
 - `git` — save points (Ch 2)
 - a browser console — reading program output (Ch 3)
 - `ps`, `tail`, `kill`, `$?` — process surgery (Ch 4)
+- `strace`, `/proc`, `systemd` — the rabbit hole branch (deep 1–2)
 - `docker` — packaging (Ch 5)
 - `node --test` and GitHub Actions — quality gates (Ch 6)
 - `wrangler` — shipping to Cloudflare Workers (Ch 7, 12, 13)
