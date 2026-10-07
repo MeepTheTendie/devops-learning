@@ -2,6 +2,8 @@
 
 A hands-on DevOps course taught by building a small, original, Game Boy Advance-inspired browser game. We will make one change at a time, run it, inspect what happened, and debug intentional failures together.
 
+The course's playable campaign map ([DEV-OPS QUEST: THE LINKED WORLD](https://devops-learning.history-atlas.workers.dev)) is hosted on Cloudflare Workers.
+
 ## How to play the course
 
 - Start from what you already know about Linux; assume no other DevOps background.
