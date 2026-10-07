@@ -4,6 +4,10 @@ A hands-on DevOps course taught by building a small browser game and then shippi
 to real infrastructure. Each chapter adds one useful skill and one visible milestone.
 You type and run the commands; the book explains the idea; we check the result together.
 
+> **Start or resume here: [../START.md](../START.md)** — the entrance ritual, the current
+> progress flag, and the cold-start battery. The book remembers where you are; START.md is
+> the bookmark.
+
 The playable campaign map — [DEV-OPS QUEST: THE LINKED WORLD](https://devops-learning.history-atlas.workers.dev) —
 is hosted on Cloudflare Workers. The terminal is our workshop; the browser is where you play.
 
@@ -59,9 +63,11 @@ of Kubernetes. Start at [deep/README.md](deep/README.md).
 | Status | Chapters |
 | --- | --- |
 | Conquered | 1, 2, 3 |
-| In progress | 4 (dungeon half done), 5 (just started) |
-| Written, not yet played | 6 – 15 |
+| In progress | 4 (dungeon half done), 5 (just started) + Deep Track 1, page 1 |
+| Written, not yet played | 6 – 15 and the rest of the deep tracks |
 | Frozen | None |
+
+> Current flag lives in [START.md](../START.md) and is updated at the end of every session.
 
 ## Quick reference: tools we use
 
