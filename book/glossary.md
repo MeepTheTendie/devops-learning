@@ -1,0 +1,43 @@
+# Glossary
+
+Plain-language definitions for every term the chapters use. Learn the idea, not just the word.
+
+- **HTTP** — the protocol of web conversations: a client asks, a server answers, each with a method and a status code.
+- **Client** — the program that starts the conversation (browser, `curl`).
+- **Server** — the program that listens and answers (the game's `http.server`, nginx).
+- **Port** — a numbered door on a machine; a server listens on one so clients know where to knock.
+- **Status code** — the server's one-line verdict (`200` ok, `404` not here, `500` it broke).
+- **Repository** — a folder where git tracks every saved change.
+- **Commit** — a named save point in that history.
+- **HTML / CSS / JavaScript** — content / appearance / behavior. The three layers of a web page.
+- **Console** — the browser's window into a page's errors and `console.log` chatter.
+- **Process** — one running copy of a program, with a PID.
+- **PID** — the process's unique number; `kill <PID>` talks to exactly that process.
+- **Exit code** — a command's final word: `0` success, nonzero failure.
+- **Log** — the program's ongoing record of what it did.
+- **Image** — a packaged recipe file (everything a program needs).
+- **Container** — one running instance of an image.
+- **Test** — a small program that asserts something is true and fails loudly if not.
+- **CI** — continuous integration: running the tests automatically on each code change.
+- **Pipeline** — the ordered steps a machine runs for a change.
+- **Deployment** — publishing your code to infrastructure other people can reach.
+- **DNS** — the phonebook that turns names like `.workers.dev` into addresses.
+- **Environment variable** — a setting injected at runtime, kept out of code.
+- **Secrets** — credentials (keys, tokens, passwords) that must never be committed.
+- **Backup** — a snapshot you've proven you can restore.
+- **Metrics** — numbers about a system: counts, rates, durations.
+- **Alert** — a rule that contacts you when a metric misbehaves.
+- **SLO** — a promised level of reliability, phrased as a measurable target.
+- **TLS/HTTPS** — encryption in transit; the `s` in `https`.
+- **SBOM** — a machine-readable list of everything an image is built from.
+- **Runbook** — the pre-written procedure for a known incident.
+- **Postmortem** — the after-action review; blameless by design.
+- **IaC / Terraform** — describing infrastructure as reviewed code; plan, apply, destroy.
+- **Serverless** — code that runs on demand on infrastructure someone else manages.
+- **Edge** — the network positions that serve requests close to users.
+- **KV** — a fast key-value store; eventually consistent.
+- **Durable Object** — consistent single-instance state at a known location.
+- **Kubernetes** — a scheduler that keeps reality matching your declared desired state.
+- **Pod** — the smallest unit Kubernetes schedules.
+- **Deployment** — the Kubernetes object describing desired pods and their rollout.
+- **Probe** — a check Kubernetes runs to know if a pod is alive and ready.

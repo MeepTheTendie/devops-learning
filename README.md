@@ -23,4 +23,4 @@ The course's playable campaign map ([DEV-OPS QUEST: THE LINKED WORLD](https://de
 - Be accurate about what the learner actually did; for example, `curl` made an HTTP request, it did not ping the server, and no browser was used unless the learner says so.
 - Keep the pace and answer size considerate of the user's limited five-hour usage allowance.
 
-The course map and the ready-to-resume first session are in [LESSONS.md](LESSONS.md).
+The course book — the campaign map, every chapter, and the progress scoreboard — is in [the Codex](book/README.md).
