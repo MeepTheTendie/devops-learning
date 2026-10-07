@@ -41,3 +41,17 @@ Plain-language definitions for every term the chapters use. Learn the idea, not 
 - **Pod** — the smallest unit Kubernetes schedules.
 - **Deployment** — the Kubernetes object describing desired pods and their rollout.
 - **Probe** — a check Kubernetes runs to know if a pod is alive and ready.
+- **File descriptor (fd)** — a numbered slot in a process's table; stdin/stdout/stderr are fds 0/1/2. Redirection moves slots.
+- **Pipe** — a kernel buffer wiring one process's stdout to the next's stdin; backpressure is what stops `yes | head`.
+- **UID / GID** — the numbers a user and group actually are; names are just a lookup layer.
+- **Setuid** — a permission bit that makes a binary run with the file owner's identity (how `passwd` writes `shadow`).
+- **Capability** — one of ~40 discrete kernels permissions; the shrinking of root into pieces containers can grant selectively.
+- **Sysctl** — the kernel's runtime knob interface (`/proc/sys`); `sysctl -w` changes are temporary unless filed in `sysctl.d`.
+- **Kernel module** — a driver the running kernel loads; `lsmod` lists them.
+- **Conntrack** — the kernel's table of in-flight conversations; NAT works only because return traffic is matched in it.
+- **NAT** — rewriting addresses while forwarding. SNAT/masquerade hides your source IP; DNAT redirects a destination (a published Docker port).
+- **IPv6 / AAAA / SLAAC** — the successor protocol; the v6 address record; automatic v6 addressing without DHCP.
+- **Dual-stack** — hosting both `A` (v4) and `AAAA` (v6) so clients pick per policy.
+- **HTTP headers** — the negotiation fields of a request/response: `Host`, `Content-Length`, `Cache-Control`, `ETag`, and friends.
+- **3-2-1 rule** — three copies, two media, one offsite; a backup you've never restored is a rumor.
+- **restic** — an encrypted, deduplicated backup tool whose snapshots you list and restore by name.

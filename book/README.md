@@ -50,9 +50,9 @@ command (server, `curl`, `git`, later Docker, CI and deploy) and reads the outpu
 ## Down the Rabbit Hole
 
 The Codex also carries a **depth branch** for when a skill makes you ask "okay, but how does
-that actually *work*?" One extra layer at each touchpoint — the kernel's view of processes,
-namespaces and cgroups beneath Docker, the boot and service layer, the network stack, and
-machine hardening with real evidence. Start at [deep/README.md](deep/README.md).
+that actually *work*?" Three terminal-first tracks — **Linux gut, Networking gut, Ops gut**,
+28 pages in a suggested order — from `/proc` and fd tables to NAT, TLS, SBOMs, and the guts
+of Kubernetes. Start at [deep/README.md](deep/README.md).
 
 ## Progress scoreboard
 
